@@ -1,0 +1,28 @@
+/* Nav css */
+.nav {
+    margin-top: 119px;
+    padding: 15px 20px;
+    background-color: #f7f9fc;
+    font-size: 15px;
+}
+
+.nav .container a {
+    text-decoration: none;
+    color: #dc4f72;
+}
+
+.margin {
+    margin-top: 16px;
+}
+
+/* Block6 */
+.block6__date {
+    top: 0;
+    left: 12;
+    right: unset;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.block6__imgpost {
+    filter: unset !important;
+}

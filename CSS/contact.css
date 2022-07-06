@@ -1,0 +1,181 @@
+/* Nav css */
+.nav {
+    margin-top: 119px;
+    padding: 15px 20px;
+    background-color: #f7f9fc;
+    font-size: 15px;
+}
+
+.nav .container a {
+    text-decoration: none;
+    color: #dc4f72;
+}
+
+
+/* Contact css */
+.contact__colimg img {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.contact__colimg img:hover {
+    transform: translateY(-15px);
+}
+
+
+.contact__container h2 {
+    color: #2c3038;
+    font-size: 46px;
+    line-height: 55px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.contact__coltext h3{
+    color: #2c3038;
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.contact__coltext form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__coltext p {
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 22.5px;
+    font-weight: 400;
+}
+
+.contact__coltext form input {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: #f7f9fc;
+    border: 1px solid #eee;
+}
+
+.contact__coltext form textarea {
+    height: 130px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: #f7f9fc;
+    border: 1px solid #eee;
+}
+
+.contact__coltext form  button {
+    width: 150px;
+}
+
+
+/*  */
+.touch {
+    background-color: #f7f9fc;
+}
+
+.touch__content .row .col {
+    padding: 0;
+}
+
+
+.touch__content .row .col {
+    transition: 0.5s;
+    padding: 30px;
+}
+
+.touch__content .row .col .item {
+    box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 32px;
+}
+
+.touch__content .row .col i {
+    width: 60px;
+    margin: 0 auto;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgba(220, 79, 114, 0.1);
+    font-size: 20px;
+    color: #dc4f72;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+.touch__content .row .col h4 {
+    font-size: 20px;
+    color: #2c3038;
+    margin: 0px 0 10px 0;
+    font-weight: 700;
+}
+
+.touch__content .row .col p {
+    font-size: 18px;
+    color: #5a5a5a;
+    line-height: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.touch__content .row .touch__colcenter p a {
+    font-size: 17px;
+    display: block;
+    color: #5a5a5a;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.touch__content .row .col:hover {
+    transform: translateY(-15px);
+}
+
+.touch__content .row .touch__colcenter p a:hover {
+    color: #dc4f72;
+    text-decoration: underline;
+}
+
+/* Map */
+.map .map__source {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:992px) {
+    .contact__container h2 {
+        font-size: 5vw !important;
+    }
+
+    .contact__coltext p {
+        font-size: 3vw !important;
+    }
+
+
+    .touch__content .row .col p {
+        font-size: 2vw !important;
+    }
+}
+
+@media screen and (max-width:576px){
+    .contact__container h2 {
+        font-size: 10vw !important;
+    }
+
+    .touch__content .row .col p {
+        font-size: 3vw !important;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {}
